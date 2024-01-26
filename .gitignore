@@ -8,3 +8,14 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.gz
+*-blx.bib
+*.run.xml
+*.bbl
+*.blg
+*.toc
