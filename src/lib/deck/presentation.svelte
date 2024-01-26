@@ -1,5 +1,5 @@
 <script>
-// @ts-nocheck
+	// @ts-nocheck
 	import Slide from './slide.svelte'
 	import Code from './code.svelte'
 	import Markdown from './markdown.svelte'
@@ -7,6 +7,15 @@
 
 <Slide>
 	<p class="capitalize">Svelte deck 🔥</p>
+</Slide>
+
+<Slide id="an1" animate>
+	<p class="capitalize">Across slides</p>
+</Slide>
+
+<Slide id="an1" animate>
+	<p class="capitalize">Animate elements</p>
+	<p class="capitalize">Across slides</p>
 </Slide>
 
 <Slide>
@@ -127,7 +136,8 @@
 	<p>Whoa!</p>
 </Slide>
 
-<Markdown>{`
+<Markdown
+	>{`
 ## Markdown ❤️
 
 You can use **HTML** or **Markdown** for slides.
@@ -135,7 +145,7 @@ You can use **HTML** or **Markdown** for slides.
 `}
 </Markdown>
 
-<Markdown name="example.md" external />
+<Markdown name="example.md" external clas="" />
 
 <Slide>
 	<p class="capitalize">Get started 😎</p>

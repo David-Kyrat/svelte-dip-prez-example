@@ -1,6 +1,6 @@
 <script>
-// @ts-nocheck
-    // string | null
+	// @ts-nocheck
+	// string | null
 	export let id = null
 	export let animate = false
 	export let restart = false

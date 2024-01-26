@@ -1,5 +1,5 @@
 <script>
-// @ts-nocheck
+	// @ts-nocheck
 	export let id = null
 	// string | boolean | null
 	export let lines = null
