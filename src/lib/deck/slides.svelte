@@ -29,6 +29,7 @@
 
 <div class="reveal">
 	<div class="slides">
-		<Presentation />
+		<!-- <Presentation /> -->
+        <slot/>
 	</div>
 </div>
