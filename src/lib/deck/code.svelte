@@ -1,6 +1,8 @@
-<script lang="ts">
-	export let id: string | null = null
-	export let lines: string | boolean | null = null
+<script>
+// @ts-nocheck
+	export let id = null
+	// string | boolean | null
+	export let lines = null
 	export let noescape = false
 </script>
 

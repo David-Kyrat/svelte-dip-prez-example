@@ -1,5 +1,7 @@
-<script lang="ts">
-	export let id: string | null = null
+<script>
+// @ts-nocheck
+    // string | null
+	export let id = null
 	export let animate = false
 	export let restart = false
 </script>

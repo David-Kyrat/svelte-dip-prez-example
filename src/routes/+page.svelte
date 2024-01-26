@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 	import Slides from '$lib/deck/slides.svelte'
 	import '../app.postcss'
 </script>
