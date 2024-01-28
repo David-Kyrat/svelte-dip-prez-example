@@ -3,4 +3,4 @@
 	import '$lib/app.postcss'
 </script>
 
-<PresMd name="/example.md" title="Q1 Example" />
+<PresMd filepaths={['/example.md', '/example2.md']} title="Q1 Example" />

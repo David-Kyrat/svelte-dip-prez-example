@@ -22,8 +22,7 @@
 			hash: true,
 			theme: 'sky',
 			slideNumber: 'c/t',
-			center: false,
-			// controls: false,
+			center: true,
 			progress: false
 		})
 		deck.initialize()

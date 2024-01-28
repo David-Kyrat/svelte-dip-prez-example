@@ -1,10 +1,10 @@
 <script>
 	import Slides from '$lib/deck/slides.svelte'
 	import Markdown from '$lib/deck/markdown.svelte'
-	import Fab, { Icon } from '@smui/fab'
+	import HomeBtn from '$lib/homeBtn.svelte'
 
 	import '$lib/app.postcss'
-	export let name = '/example.md'
+	export let filepaths = ['/example.md']
 	export let title = 'Prez MD'
 	export let clas = 'text-xl'
 </script>
@@ -16,20 +16,15 @@
 	/>
 </head>
 
-<div class="flex items-baseline">
-	<a href="/">
-		<Fab color="primary" href="/" target="_top" class="z-50 m-1" mini>
-			<Icon class="material-icons" id="tmp">home</Icon>
-		</Fab>
-	</a>
-	<!-- <h1 class="text-2xl w-fit mx-auto block mt-0 font-bold">{title}</h1> -->
-</div>
+<HomeBtn />
 <!-- <div class="w-dvw h-fit"> -->
 <!-- <h1 class="text-2xl w-fit block mx-auto mt-0 font-bold" >{title}</h1> -->
 <!-- </div> -->
 
 <Slides>
-	<Markdown {name} external {clas} />
+	{#each filepaths as subpres}
+		<Markdown name={subpres} external {clas} />
+	{/each}
 	<!-- <Markdown name="/example2.md" external {clas} /> -->
 	<!-- <Markdown name="/example2.md" external clas="text-2xl " /> -->
 	<!-- <section data-markdown={name} class={clas} /> -->
