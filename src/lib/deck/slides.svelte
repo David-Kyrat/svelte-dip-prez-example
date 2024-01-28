@@ -20,15 +20,15 @@
 			autoAnimateEasing: 'ease',
 			autoAnimateDuration: 0.8,
 			hash: true,
-			theme: 'sky'
+			theme: 'sky',
 			// controls: false,
-			// progress: false
+			progress: false,
 		})
 		deck.initialize()
 	})
 </script>
 
-<div class="reveal">
+<div class="reveal h-[113%] border border-red-400">
 	<div class="slides">
 		<slot />
 	</div>
