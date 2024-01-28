@@ -1,20 +1,4 @@
-## Slide 1
-
-You can write the entire presentation in Markdown using an external Markdown file.
-
----
-
-## Slide 2
-
-```js [2|1-3]
-function love() {
-	console.log('Svelte')
-}
-```
-
----
-
-## Slide 3
+## Latex Test
 
 <div class="text-xl border-2 border-rose-500 rounded-full">
 

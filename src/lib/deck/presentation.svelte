@@ -18,7 +18,7 @@
 	<p class="capitalize">Across slides</p>
 </Slide>
 
-<Markdown name="example.md" external clas="" />
+<Markdown name="/example.md" external clas="" />
 <Slide>
 	<p class="capitalize">Horizontal slide</p>
 </Slide>
@@ -146,7 +146,7 @@ You can use **HTML** or **Markdown** for slides.
 `}
 </Markdown>
 
-<Markdown name="example.md" external clas="" />
+<Markdown name="/example.md" external clas="" />
 
 <Slide>
 	<p class="capitalize">Get started 😎</p>

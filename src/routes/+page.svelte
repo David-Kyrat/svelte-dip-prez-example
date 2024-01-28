@@ -18,10 +18,10 @@
 <h1 class="w-fit text-3xl block mx-auto mt-5 font-bold"> Choose your question </h1>
 <!-- <Slides /> -->
 <LayoutGrid>
-  {#each Array(oral_question_nb) as _unused, i}
+  {#each Array(oral_question_nb + 1) as _unused, i}
     <Cell>
       <div class="demo-cell">
-        <a href="/q{i+1}">Q{i + 1}</a>
+        <a href="/q{i}">{i == 0 ? "Example" : `Q${i}`}</a>
       </div>
     </Cell>
   {/each}

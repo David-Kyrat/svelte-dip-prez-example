@@ -8,8 +8,9 @@
 	<title>Presentation</title>
 </svelte:head>
 
-<h1 class="w-fit text-2xl block mx-auto mt-5 font-bold text-white">Test</h1>
-<!-- <Slides /> -->
+<h1 class="w-fit text-2xl block mx-auto mt-5 font-bold text-white" style="margin-bottom:-20vh;">
+  Example
+</h1>
 
 <Slides>
 	<Presentation />
