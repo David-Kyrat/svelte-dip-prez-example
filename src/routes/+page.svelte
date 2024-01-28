@@ -20,9 +20,9 @@
 <LayoutGrid>
   {#each Array(oral_question_nb + 1) as _unused, i}
     <Cell>
-      <div class="demo-cell">
-        <a href="/q{i}">{i == 0 ? "Example" : `Q${i}`}</a>
-      </div>
+      <a href="/q{i}">
+        <div class="demo-cell"> {i == 0 ? "Example" : `Q${i}`} </div>
+      </a>
     </Cell>
   {/each}
 </LayoutGrid>

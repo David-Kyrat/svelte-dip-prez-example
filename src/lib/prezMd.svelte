@@ -1,6 +1,6 @@
 <script>
 	import Slides from '$lib/deck/slides.svelte'
-	import Markdown from '$lib/deck/markdown.svelte'
+	// import Markdown from '$lib/deck/markdown.svelte'
 	import '$lib/app.postcss'
   export let name = '/example.md'
   export let title = "Prez MD"
@@ -12,7 +12,7 @@
 </div>
 
 <Slides>
-<Markdown {name} external {clas} />
-<!-- <section data-markdown={name} class={clas} /> -->
+<!-- <Markdown {name} external {clas} /> -->
+<section data-markdown={name} class={clas} />
 </Slides>
 
