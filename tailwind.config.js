@@ -6,7 +6,8 @@ const config = {
 		extend: {}
 	},
 
-	plugins: []
+	plugins: [],
+	important: true
 }
 
 export default config
