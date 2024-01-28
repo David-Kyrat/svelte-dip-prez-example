@@ -9,7 +9,7 @@
 
 	import 'reveal.js/dist/reveal.css'
 	import 'reveal.js/dist/theme/sky.css'
-	import 'reveal.js/dist/theme/black.css'
+	// import 'reveal.js/dist/theme/black.css'
 	import 'reveal.js/plugin/highlight/monokai.css'
 
 	import Presentation from './presentation.svelte'
@@ -19,7 +19,8 @@
 			plugins: [Markdown, Highlight, Notes, RevealMath.KaTeX],
 			autoAnimateEasing: 'ease',
 			autoAnimateDuration: 0.8,
-			hash: true
+			hash: true,
+			theme: 'sky'
 			// controls: false,
 			// progress: false
 		})
@@ -28,16 +29,14 @@
 </script>
 
 <div class="reveal">
-	<div class="slides w-[100%]" style="height: 700px; ">
-		<!-- <Presentation /> -->
-        <slot/>
+	<div class="slides">
+		<slot />
 	</div>
 </div>
 
 <style>
-  .slides {
-    /* width: auto !important; */
-    transform:none !important; 
-    inset: 40% auto auto 0% !important;
-  }
+	.slides {
+		/* transform:none !important;  */
+		/* inset: 40% auto auto 0% !important; */
+	}
 </style>

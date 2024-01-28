@@ -1,6 +1,6 @@
 ## Latex Test
 
-<div class="text-lg border-2 border-rose-500 rounded-full">
+<!-- <div class="text-lg border-2 border-rose-500 rounded-full"> -->
 
 abc
 
@@ -9,7 +9,7 @@ $$
 	\forall \varepsilon > 0\ \exists \delta > 0\ \forall x \in \mathcal{D_f} |x - x_0| < \delta \longrightarrow |f(x) - l| < \varepsilon
 $$
 
-</div>
+<!-- </div> -->
 
 ---
 
