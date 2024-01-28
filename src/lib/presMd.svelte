@@ -18,7 +18,7 @@
 
 <div class="flex items-baseline">
 	<a href="/">
-		<Fab color="primary" href="/" target="_top"  class="z-50 m-1" mini>
+		<Fab color="primary" href="/" target="_top" class="z-50 m-1" mini>
 			<Icon class="material-icons" id="tmp">home</Icon>
 		</Fab>
 	</a>
