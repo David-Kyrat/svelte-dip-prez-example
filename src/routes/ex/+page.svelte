@@ -1,6 +1,6 @@
 <script>
 	import Slides from '$lib/deck/slides.svelte'
-	import '../app.postcss'
+	import '$lib/app.postcss'
 	import Presentation from '$lib/deck/presentation.svelte'
 </script>
 

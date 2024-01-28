@@ -18,6 +18,7 @@
 	<p class="capitalize">Across slides</p>
 </Slide>
 
+<Markdown name="example.md" external clas="" />
 <Slide>
 	<p class="capitalize">Horizontal slide</p>
 </Slide>

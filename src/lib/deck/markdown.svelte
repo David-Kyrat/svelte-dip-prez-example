@@ -1,5 +1,5 @@
 <script>
-	export let name = 'example.md'
+	export let name = ''
 	export let external = false
 	export let clas = ''
 </script>
