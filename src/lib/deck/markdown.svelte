@@ -13,3 +13,9 @@
 		</div>
 	</section>
 {/if}
+
+<style>  
+  .present {
+    /* top: 0px !important; */
+  }
+</style>

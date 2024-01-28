@@ -28,8 +28,16 @@
 </script>
 
 <div class="reveal">
-	<div class="slides">
+	<div class="slides w-[100%]" style="height: 700px; ">
 		<!-- <Presentation /> -->
         <slot/>
 	</div>
 </div>
+
+<style>
+  .slides {
+    /* width: auto !important; */
+    transform:none !important; 
+    inset: 40% auto auto 0% !important;
+  }
+</style>

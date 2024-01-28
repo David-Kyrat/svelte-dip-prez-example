@@ -15,7 +15,7 @@
 
 <!-- <head> <link rel="stylesheet" href="node_modules/svelte-material-ui/bare.css" /> </head> -->
 
-<h1 class="w-fit text-3xl block mx-auto mt-5 font-bold"> Choose your question </h1>
+<h1 class="w-fit text-3xl block mx-auto mt-5 font-bold"> Choose a question </h1>
 <!-- <Slides /> -->
 <LayoutGrid>
   {#each Array(oral_question_nb + 1) as _unused, i}
