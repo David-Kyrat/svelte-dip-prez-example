@@ -9,6 +9,36 @@
 	<p class="capitalize">Svelte deck 🔥</p>
 </Slide>
 
+<section data-auto-animate>
+	<h2>HStack Example</h2>
+	<div class="r-hstack">
+		<p style="padding: 0.50em; background: #eee; margin: 0.25em">One</p>
+		<p style="padding: 0.75em; background: #eee; margin: 0.25em">Two</p>
+		<p style="padding: 1.00em; background: #eee; margin: 0.25em">Three</p>
+	</div>
+</section>
+
+<section id="vstack">
+	<h2>VStack</h2>
+	<p>Stacks multiple elements vertically.</p>
+	<pre><code class="html" data-trim data-line-numbers>
+    <div class="r-vstack">
+      &lt;img width="450" height="300" src="..."&gt;
+      &lt;img width="300" height="450" src="..."&gt;
+      &lt;img width="400" height="400" src="..."&gt;
+    </div>
+  </code></pre>
+</section>
+
+<section data-auto-animate>
+	<h2>VStack Example</h2>
+	<div class="r-vstack">
+		<p style="padding: 0.50em; background: #eee; margin: 0.25em">One</p>
+		<p style="padding: 0.75em; background: #eee; margin: 0.25em">Two</p>
+		<p style="padding: 1.00em; background: #eee; margin: 0.25em">Three</p>
+	</div>
+</section>
+
 <Slide id="an1" animate>
 	<p class="capitalize">Across slides</p>
 </Slide>

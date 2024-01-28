@@ -28,7 +28,7 @@
 	})
 </script>
 
-<div class="reveal h-[113%] border border-red-400">
+<div class="reveal h-[100%] border border-red-400">
 	<div class="slides">
 		<slot />
 	</div>

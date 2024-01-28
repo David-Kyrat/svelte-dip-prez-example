@@ -5,7 +5,7 @@
 </script>
 
 {#if external}
-	<section data-markdown={name} />
+	<section data-markdown={name} class={clas}/>
 {:else}
 	<section data-markdown>
 		<div data-template>
