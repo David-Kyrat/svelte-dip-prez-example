@@ -40,7 +40,6 @@
     "@types/reveal.js": "^4.4.2",
     "install": "^0.13.0",
     "prettier": "^3.2.4",
-    "reveal.js": "^4.5.0",
-    "svelte-material-ui": "^7.0.0-beta.16"
+    "reveal.js": "^4.5.0"
   }
 }
