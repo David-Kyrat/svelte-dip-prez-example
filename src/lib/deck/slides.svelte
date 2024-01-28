@@ -9,7 +9,7 @@
 
 	import 'reveal.js/dist/reveal.css'
 	import 'reveal.js/dist/theme/sky.css'
-	// import 'reveal.js/dist/theme/black.css'
+	import 'reveal.js/dist/theme/black.css'
 	import 'reveal.js/plugin/highlight/monokai.css'
 
 	import Presentation from './presentation.svelte'
@@ -19,24 +19,16 @@
 			plugins: [Markdown, Highlight, Notes, RevealMath.KaTeX],
 			autoAnimateEasing: 'ease',
 			autoAnimateDuration: 0.8,
-			hash: true,
-			theme: 'sky',
+			hash: true
 			// controls: false,
-			progress: false,
+			// progress: false
 		})
 		deck.initialize()
 	})
 </script>
 
-<div class="reveal h-[113%] border border-red-400">
+<div class="reveal">
 	<div class="slides">
-		<slot />
+		<Presentation />
 	</div>
 </div>
-
-<style>
-	.slides {
-		/* transform:none !important;  */
-		/* inset: 40% auto auto 0% !important; */
-	}
-</style>

@@ -1,26 +1,35 @@
-### Latex Test
+## Slide 1
 
-<script>
-  <!-- import './../src/app.postcss' -->
-	import '$lib/app.postcss'
+You can write the entire presentation in Markdown using an external Markdown file.
 
-</script>
+---
 
-<!-- <div class="text-lg border-2 border-rose-500 rounded-full"> -->
+## Slide 2
 
-<span class="math display">
+```js [2|1-3]
+function love() {
+	console.log('Svelte')
+}
+```
+
+---
+
+## Slide 3
+
+<div class="text-xl border-2 border-rose-500 rounded-full">
+
+abc
+
 $$
 	\lim_{x \rightarrow x_0}{f(x)} = l \leftrightarrow
 	\forall \varepsilon > 0\ \exists \delta > 0\ \forall x \in \mathcal{D_f} |x - x_0| < \delta \longrightarrow |f(x) - l| < \varepsilon
 $$
-</span>
 
-<!-- </div> -->
+</div>
 
 ---
 
-<!-- <div class="text-xl border-2 border-rose-500 rounded-full"> -->
-
+<div class="text-xl border-2 border-rose-500 rounded-full">
 $$
 \begin{aligned}
 \dot{x} &= \sigma(y-x) \\
@@ -28,11 +37,4 @@ $$
 \dot{z} &= -\beta z + xy
 \end{aligned}
 $$
-
-<!-- </div> -->
-
-<style>
- .math {
-    font-size: 50% !important;
-}
-</style>
+<div class="text-xl border-2 border-rose-500">
