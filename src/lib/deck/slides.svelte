@@ -21,22 +21,25 @@
 			autoAnimateDuration: 0.8,
 			hash: true,
 			theme: 'sky',
+			slideNumber: 'c/t',
+			center: false,
 			// controls: false,
-			progress: false,
+			progress: false
 		})
 		deck.initialize()
 	})
 </script>
 
-<div class="reveal h-[100%] border border-red-400">
+<!-- <div class="reveal h-[113%] border border-red-400"> -->
+<div class="reveal h-dvh border border-red-400 absolute top-2">
 	<div class="slides">
 		<slot />
 	</div>
 </div>
 
 <style>
-	.slides {
+	/*.slides {*/
 		/* transform:none !important;  */
 		/* inset: 40% auto auto 0% !important; */
-	}
+	/*}*/
 </style>
