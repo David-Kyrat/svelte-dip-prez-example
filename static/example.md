@@ -1,6 +1,6 @@
 ## Latex Test
 
-<div class="text-xl border-2 border-rose-500 rounded-full">
+<div class="text-lg border-2 border-rose-500 rounded-full">
 
 abc
 
